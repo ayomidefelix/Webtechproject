@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortfolioProTeam</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction Section -->
+    <section id="home">
+        <h1>Welcome to Our Portfolio</h1>
+        <p>We are a dynamic team of developers, designers, and creative thinkers passionate about turning ideas into reality. Our combined skills and diverse backgrounds allow us to deliver unique and effective solutions. Dive into our portfolio to discover our work, our passion, and the impact we aim to create.. Here is a showcase of our skills and projects.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Our Skills</h2>
+        <div class="skills-list">
+            <div class="skill">
+                <h3>HTML</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>CSS</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Our Projects</h2>
+        <div class="project-list">
+            <div class="project-item">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>A brief description of Project 1.</p>
+            </div>
+            <div class="project-item">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>A brief description of Project 2.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm" onsubmit="return validateForm()">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 PortfolioProTeam. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
