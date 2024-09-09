@@ -58,6 +58,11 @@ h3 {
   color: #333;
 }
 
+.group-image {
+  width: 100%;
+  object-fit: cover;
+}
+
 .Individual-Skills {
   display: flex;
   flex-direction: column;
